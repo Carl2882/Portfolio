@@ -1,0 +1,43 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.title{
+    margin-top: 200px;
+    margin-left: -20px;
+}
+
+.title h1{
+    margin-left: 70px;
+}
+img{
+	width: 350px;
+	height: 300px;
+}
+
+.workarea{
+    margin-left: 400px;
+    margin-top: -350px;
+    font-size: 1.0rem;
+}
+button{
+    margin-top: 10px; 
+}
+
+.displayarea{
+    margin-left: 1100px;
+    margin-top: -285px;
+}
+.hints{
+    margin-top: 10px;
+    color: green;
+}
+h5{
+    color: red;
+    font-size: 5rem;
+}
+#game-history{
+    color: green;
+    font-size: 2rem;
+}
