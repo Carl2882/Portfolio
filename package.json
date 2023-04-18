@@ -2,14 +2,17 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio website",
-  "main": "index.html",
+  "main": "index.js",
+  "homepage": "https://Carl2882.github.io/Portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Carl Koku",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.3.0",
+    "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0"
   }
 }
